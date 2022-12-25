@@ -37,6 +37,7 @@ document.querySelector(".btn-start").addEventListener("click",function () {
     newQuiz.index++;
     if(newQuiz.index >= sorular.length){
         // completed quiz
+        //This is the completed section.
     }
 
 })
