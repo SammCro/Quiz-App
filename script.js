@@ -36,8 +36,7 @@ document.querySelector(".btn-start").addEventListener("click",function () {
     questionPlace.value =soru.soru; 
     newQuiz.index++;
     if(newQuiz.index >= sorular.length){
-        // completed quiz
-        //This is the completed section.
+        print("You have finished the quiz succesfully!");
     }
 
 })
